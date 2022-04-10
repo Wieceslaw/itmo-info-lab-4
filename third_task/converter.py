@@ -1,5 +1,6 @@
 import xml_converter
 import json_parser
+from time import time
 
 
 def main():
@@ -12,4 +13,9 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    start_time = time()
+    for _ in range(10):
+        main()
+    end_time = time()
+    delta_time = end_time - start_time
+    print("\nВремя исполнения (с регулярками):", delta_time)
