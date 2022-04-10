@@ -1,35 +1,37 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<wednesday>
-    <element>
-        <time>10:00-11:30</time>
-        <address>Кронверкский пр., д.49, лит.А</address>
-        <room>1419 (бывш. 466) ауд.</room>
-        <lesson>Физика(Лек)</lesson>
-        <tutor>Ходунов</tutor>
-        <lesson-format>Очно - дистанционный</lesson-format>
-    </element>
-    <element>
-        <time>11:40-13:10</time>
-        <address>Кронверкский пр., д.49, лит.А</address>
-        <room>1419 (бывш. 466) ауд.</room>
-        <lesson>Физика(Прак)</lesson>
-        <tutor>Ходунов</tutor>
-        <lesson-format>Очно - дистанционный</lesson-format>
-    </element>
-    <element>
-        <time>15:20-16:50</time>
-        <address>Кронверкский пр., д.49, лит.А</address>
-        <room>2316 (бывш. 314) ауд.</room>
-        <lesson>Философия(Прак)</lesson>
-        <tutor>Капельчук Ксения Александровна</tutor>
-        <lesson-format>Очно - дистанционный</lesson-format>
-    </element>
-    <element>
-        <time>20:20-21:50</time>
-        <address></address>
-        <room></room>
-        <lesson>Хранение и обработка данных(Лек)</lesson>
-        <tutor>Графеева Наталья Генриховна</tutor>
-        <lesson-format>Дистанционный</lesson-format>
-    </element>
-</wednesday>
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <wednesday type="list">
+        <item type="dict">
+            <time type="str">10:00-11:30</time>
+            <address type="str">Кронверкский пр., д.49, лит.А</address>
+            <room type="str">1419 (бывш. 466) ауд.</room>
+            <lesson type="str">Физика(Лек)</lesson>
+            <tutor type="str">Ходунов</tutor>
+            <lesson-format type="str">Очно - дистанционный</lesson-format>
+        </item>
+        <item type="dict">
+            <time type="str">11:40-13:10</time>
+            <address type="str">Кронверкский пр., д.49, лит.А</address>
+            <room type="str">1419 (бывш. 466) ауд.</room>
+            <lesson type="str">Физика(Прак)</lesson>
+            <tutor type="str">Ходунов</tutor>
+            <lesson-format type="str">Очно - дистанционный</lesson-format>
+        </item>
+        <item type="dict">
+            <time type="str">15:20-16:50</time>
+            <address type="str">Кронверкский пр., д.49, лит.А</address>
+            <room type="str">2316 (бывш. 314) ауд.</room>
+            <lesson type="str">Философия(Прак)</lesson>
+            <tutor type="str">Капельчук Ксения Александровна</tutor>
+            <lesson-format type="str">Очно - дистанционный</lesson-format>
+        </item>
+        <item type="dict">
+            <time type="str">20:20-21:50</time>
+            <address type="str"></address>
+            <room type="str"></room>
+            <lesson type="str">Хранение и обработка данных(Лек)</lesson>
+            <tutor type="str">Графеева Наталья Генриховна</tutor>
+            <lesson-format type="str">Дистанционный</lesson-format>
+        </item>
+    </wednesday>
+</root>
