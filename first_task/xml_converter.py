@@ -9,13 +9,7 @@ def convert_to_xml(content):
 
 
 def convert(content):
-    return '<?xml version="1.0" encoding="UTF-8" ?>' + '<root>' + convert_to_xml(content) + '</root>'
-
-
-def main():
-    content = {"ad": 2, "vall": {"key": "value", "array": [1, 2, 3]}}
-    print(convert(content))
-
-
-if __name__ == '__main__':
-    main()
+    if len(content) == 1:
+        return '<?xml version="1.0" encoding="UTF-8" ?>' + convert_to_xml(content)
+    else:
+        return '<?xml version="1.0" encoding="UTF-8" ?>' + '<root>' + convert_to_xml(content) + '</root>'  
